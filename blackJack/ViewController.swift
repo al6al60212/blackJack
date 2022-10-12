@@ -100,7 +100,7 @@ class ViewController: UIViewController {
             alert.addAction(action)
             present(alert, animated: true)
         }else{
-            //破產繼續玩
+            //玩家未破產，繼續玩
             let alert = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
             let action = UIAlertAction(title: "OK", style: .default){_ in
                 self.newGame()
@@ -337,7 +337,7 @@ class ViewController: UIViewController {
             bet *= 2
             playerMoney += bet
             playerMoneyLable.text = "本金：\(playerMoney)"
-            addAlert(title: "恭喜！", message: "莊家爆牌，贏了\(bet)", btnTitle: "OK")
+            addAlert(title: "恭喜！", message: "莊家爆牌，贏了\(bet / 2)", btnTitle: "OK")
                 
         }else if bankerPoint > playerPoint{
             addAlert(title: "可惜！", message: "莊家比你大，輸了\(bet)", btnTitle: "OK")
@@ -346,7 +346,7 @@ class ViewController: UIViewController {
             bet *= 2
             playerMoney += bet
             playerMoneyLable.text = "本金：\(playerMoney)"
-            addAlert(title: "恭喜！", message: "你比莊家大，贏了\(bet)", btnTitle: "OK")
+            addAlert(title: "恭喜！", message: "你比莊家大，贏了\(bet / 2)", btnTitle: "OK")
             
                 
         }else if bankerPoint == playerPoint{

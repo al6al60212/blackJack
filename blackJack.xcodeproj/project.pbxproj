@@ -13,6 +13,7 @@
 		CB9E4E7428F0773A00AD4272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9E4E7228F0773A00AD4272 /* Main.storyboard */; };
 		CB9E4E7628F0773C00AD4272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9E4E7528F0773C00AD4272 /* Assets.xcassets */; };
 		CB9E4E7928F0773C00AD4272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9E4E7728F0773C00AD4272 /* LaunchScreen.storyboard */; };
+		CB9E4EA928F2B24600AD4272 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E4EA828F2B24600AD4272 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CB9E4E7528F0773C00AD4272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB9E4E7828F0773C00AD4272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB9E4E7A28F0773C00AD4272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9E4EA828F2B24600AD4272 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		CB9E4E6028F0773A00AD4272 = {
 			isa = PBXGroup;
 			children = (
+				CB9E4EA828F2B24600AD4272 /* Card.swift */,
 				CB9E4E6B28F0773A00AD4272 /* blackJack */,
 				CB9E4E6A28F0773A00AD4272 /* Products */,
 			);
@@ -141,6 +144,7 @@
 				CB9E4E7128F0773A00AD4272 /* ViewController.swift in Sources */,
 				CB9E4E6D28F0773A00AD4272 /* AppDelegate.swift in Sources */,
 				CB9E4E6F28F0773A00AD4272 /* SceneDelegate.swift in Sources */,
+				CB9E4EA928F2B24600AD4272 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CWC533V7F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = blackJack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CWC533V7F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = blackJack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
